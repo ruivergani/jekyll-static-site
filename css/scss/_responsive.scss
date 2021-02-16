@@ -1,0 +1,51 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .navbar:after {
+        background-size: 40%;
+    }
+
+    main {
+        text-align: left;
+    }
+
+    div#text-top-footer {
+        font-size: 12px;
+        padding: 0px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    div .card-body h5 {
+        text-align: left;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar .container a {
+        font-size: 1.3em;
+    }
+
+    .navbar .container a i {
+        font-size: 1.2em;
+    }
+
+    div#navbarSupportedContent a {
+        font-size: 1.1em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar:after {
+        background-size: 30%;
+    }
+
+    div#card-deck {
+        padding-top: 5vmax;
+    }
+
+
+}

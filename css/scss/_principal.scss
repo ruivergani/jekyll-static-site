@@ -1,0 +1,112 @@
+// Main
+
+main {
+    background-color: $white-light;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: auto;
+    letter-spacing: 0.8px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+div .card {
+    border-left: 0.5px solid $light-shadow;
+    border-right: 0.5px solid $light-shadow;
+    border-bottom: 0.5px solid $light-shadow;
+}
+
+div .card img {
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 0px;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+div#card-block div.card img:hover {
+    cursor: pointer;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+div .card-text-header {
+    font-family: 'Work Sans', sans-serif;
+    color: $grey-dark;
+    font-size: 13px;
+    background-color: $white;
+}
+
+div .card-header i {
+    color: $super-light;
+    font-size: 15px;
+}
+
+div .card-body {
+    padding: 1rem;
+}
+
+div .card-body h5 {
+    color: $dark-blue;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.card-text {
+    line-height: 22px;
+    color: $text-light;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.card-footer {
+    background-color: rgba(33, 47, 69, 0.08);
+    box-shadow:
+        0 2px 1.9px rgba(0, 0, 0, 0.034),
+        0 4px 3.3px rgba(0, 0, 0, 0.048),
+        0 8px 7px rgba(0, 0, 0, 0.06),
+        0 10px 9px rgba(0, 0, 0, 0.062),
+        0 20px 20px rgba(0, 0, 0, 0.04),
+        0 50px 40px rgba(0, 0, 0, 0.06);
+}
+
+div#icons-footer i {
+    font-size: 23px;
+    color: $dark-blue;
+    transition: all .3s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div#icons-footer i:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+div#button {
+    margin-top: 70px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+    background-color: $dark-blue;
+    border-color: $grey-light;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

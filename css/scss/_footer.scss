@@ -1,0 +1,30 @@
+// Footer
+
+footer {
+    background-color: $dark-blue;
+    padding: 13px 0px;
+    transition-duration: 0.6s;
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-top: 8px solid rgba(0, 0, 0, 0.2);
+}
+
+div#text-top-footer {
+    background-color: $white-light;
+    font-size: 10px;
+    color: $grey-dark;
+    padding: 0px 5px;
+    font-style: italic;
+}
+
+footer ul li a i {
+    color: $grey-light;
+    font-size: 1.8em;
+    transition: all .3s ease-in-out;
+}
+
+footer ul li a i:hover {
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
+}
