@@ -10,13 +10,12 @@ layout: default
         {{ content }}
             <!-- card 1 -->
             <!-- Home Post List -->
-             
           {% for post in paginator.posts %}
               <div class="col-12 col-md-6 col-lg-4 mt-5 card-lift-hover border-0 box-shadow" id="card-block">
                 <!-- Card -->
                 <div class="card">
                   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                    <img src="{{ post.image_path }}" class="card-img-top" alt="..."></a>
+                    <img src="{{ post.image_path | prepend: site.baseurl | replace: '/', '/'}}" class="card-img-top" alt="..."></a>
                   <div class="card-body">
                     <div class="card-text-header pb-2"><i class="far fa-clock mr-2"></i>{{ post.date | date: '%B %d, %Y' }}</div>
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">

@@ -59,3 +59,61 @@ div#navbarSupportedContent a {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
     transition-duration: 0.6s;
 }
+
+/* SIDEBAR */
+
+.sidebar.open {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.sidebar {
+    background: $dark-blue;
+}
+
+.close-icon i {
+    color: $grey-light;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.sidebar {
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    padding: 23px;
+    position: fixed;
+    border-left: 8px solid rgba(0, 0, 0, 0.2);
+    right: 0;
+    top: 0;
+    -webkit-transition: all .7s ease 0s;
+    -o-transition: all .7s ease 0s;
+    transition: all .7s ease 0s;
+    width: 250px;
+    z-index: 9999;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    padding-bottom: 40px;
+}
+
+div.sidebar-content {
+    font-size: 13.5px;
+}
+
+div.sidebar-content span {
+    font-size: 13.3px;
+}
+
+div.sidebar-content h4 a .wrap {
+    font-size: 19px;
+    text-align: center;
+    color: $white;
+    cursor: none;
+}
+
+hr.line {
+    border-top: 1px solid #E0FBFC;
+    margin: 20px 35px 30px 35px;
+}
