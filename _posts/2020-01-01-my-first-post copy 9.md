@@ -3,7 +3,7 @@ layout: post
 title: "Post 9"
 subtitle: "because they lacked opposable thumbs and the brainpower to build a space program."
 date: 2020-01-26 23:45:13 -0400
-image_path: /images/img1.jpg
+image_path: images/img1.jpg
 ---
 
 Titulo e formato....
