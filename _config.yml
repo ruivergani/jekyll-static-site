@@ -3,7 +3,8 @@ email:              ruiverganineto@example.com
 description:        This is a blog created by Computer Science student at the University of Staffordshire, the purpose is to provide some content regarding my degree, also another possibility of learning some extra IT related content. 
 author:             Rui Vergani Neto
 baseurl:            ""
-url:                "https://ruivergani.github.io"
+url:                "https://ruivergani.github.io/jekyll-static-site/"
+root: /
 
 
 collections:
