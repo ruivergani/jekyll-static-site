@@ -17,8 +17,16 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    div .card-body {
+        text-align: left !important;
+    }
+
     div .card-body h5 {
-        text-align: left;
+        text-align: left !important;
+    }
+
+    div .card-body p {
+        text-align: justify !important;
     }
 }
 

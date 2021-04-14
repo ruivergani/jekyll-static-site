@@ -11,21 +11,26 @@ layout: default
             <!-- card 1 -->
             <!-- Home Post List -->
           {% for post in paginator.posts %}
-              <div class="col-12 col-md-6 col-lg-4 mt-5" id="card-block">
+              <div class="col-12 col-md-6 col-lg-4 mt-5 card-lift-hover border-0 box-shadow" id="card-block">
+                <!-- Card -->
                 <div class="card">
-                  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ post.image_path }}" class="card-img-top" alt="..."></a>
+                  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                    <img src="{{ post.image_path }}" class="card-img-top" alt="..."></a>
                   <div class="card-body">
                     <div class="card-text-header pb-2"><i class="far fa-clock mr-2"></i>{{ post.date | date: '%B %d, %Y' }}</div>
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"><h5 class="card-title">{{ post.title }}</h5></a>
+                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                      <h5 class="card-title">{{ post.title }}</h5></a>
                     {% if post.subtitle %}
-                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"><p class="card-text">{{ post.subtitle }}</p></a>
+                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                      <p class="card-text">{{ post.subtitle }}</p></a>
                     {% endif %}
                   </div>
                   <div class="card-footer">
                     <small class="text-muted row no-gutters justify-content-lg-between align-middle">
                         <div class="col-8 col-md-8 pt-1 pt-md-0">Approximately {% include read_time.html content=post.content %}</div>
                         <div id="icons-footer" class="col-4 col-md-4 text-center">
-                          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"><i class="fab fa-readme mr-md-2"></i></a>
+                          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                            <i class="fab fa-readme mr-md-2"></i></a>
                           <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><i class="fas fa-share"></i></a>
                         </div>
                     </small>
