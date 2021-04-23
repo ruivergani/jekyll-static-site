@@ -14,7 +14,7 @@
     left: 0px;
     right: 0px;
     height: 2px;
-    background: linear-gradient(to right, $blue-nav 25%, $yellow-dark 25%, $yellow-dark 50%, $orange-nav 50%, $red-light 75%, $green 75%);
+    background: linear-gradient(to right, #ff884b 25%, $yellow-dark 25%, $yellow-dark 50%, $orange-nav 50%, $red-light 75%, $green 75%);
 }
 
 .navbar:after {
@@ -69,12 +69,12 @@ div#navbarSupportedContent a {
 }
 
 .sidebar {
-    background: $dark-blue;
+    background-color: rgba(33, 47, 69, 0.9);
 }
 
 .close-icon i {
     color: $grey-light;
-    font-size: 1.5em;
+    font-size: 1.65em;
     cursor: pointer;
 }
 
@@ -116,4 +116,13 @@ div.sidebar-content h4 a .wrap {
 hr.line {
     border-top: 1px solid #E0FBFC;
     margin: 20px 35px 30px 35px;
+}
+
+.btn-secondary {
+    background-color: $dark-blue;
+    border-color: $grey-light;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
