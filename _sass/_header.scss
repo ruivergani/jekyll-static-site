@@ -68,6 +68,10 @@ div#navbarSupportedContent a {
     transform: translateX(0);
 }
 
+.text-center {
+    text-align: center !important;
+}
+
 .sidebar {
     background-color: rgba(33, 47, 69, 0.9);
 }
@@ -119,10 +123,10 @@ hr.line {
 }
 
 .btn-secondary {
-    background-color: $dark-blue;
+    background-color: #81b214;
     border-color: $grey-light;
 }
 
 .btn-secondary:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
 }
