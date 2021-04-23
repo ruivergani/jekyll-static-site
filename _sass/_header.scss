@@ -107,7 +107,8 @@ div.sidebar-content {
 }
 
 div.sidebar-content span {
-    font-size: 13.3px;
+    font-size: 16px;
+    color: $grey-light;
 }
 
 div.sidebar-content h4 a .wrap {
@@ -117,13 +118,17 @@ div.sidebar-content h4 a .wrap {
     cursor: none;
 }
 
+div .sidebar-content a {
+    color: $white;
+}
+
 hr.line {
     border-top: 1px solid #E0FBFC;
     margin: 20px 35px 30px 35px;
 }
 
 .btn-secondary {
-    background-color: #81b214;
+    background-color: $green-button;
     border-color: $grey-light;
 }
 
