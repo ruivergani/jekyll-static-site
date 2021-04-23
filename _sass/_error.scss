@@ -1,0 +1,24 @@
+// Error Page
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Prompt:wght@700&display=swap');
+
+.error {
+    background-color: $white !important;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: left;
+    color: $dark-blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+
+.title {
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.title-h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
