@@ -17,31 +17,31 @@ title: Error Page
                 </div>
 
                 <div class="container">
-                    <div class="row justify-content-center p-5">
-                        <ul class="d-flex">
+                    <div class="row justify-content-center m-5 p-5">
+                        <ul class="d-flex" id="icons">
                             <li>
-                                <a class="mr-4" href="https://github.com/ruivergani" target="_blank"><i class="fab fa-github"></i></a>
+                                <a class="mr-5" href="https://github.com/ruivergani" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                             </li>
                             <li>
-                                <a class="mr-4" href="https://www.linkedin.com/in/ruiverganineto/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+                                <a class="mr-5" href="https://www.linkedin.com/in/ruiverganineto/" target="_blank"><i class="fab fa-linkedin fa-2x" ></i></a>
                             </li>
                             <li>
-                                <a class="mr-4" href="https://www.instagram.com/ruiverganineto/" target="_blank"><i class="fab fa-instagram" ></i></a>
+                                <a class="mr-5" href="https://www.instagram.com/ruiverganineto/" target="_blank"><i class="fab fa-instagram fa-2x" ></i></a>
                             </li>
                             <li>
-                                <a class="mr-4" href="https://www.facebook.com/ruiverganineto"  target="_blank" ><i class="fab fa-facebook"></i></a>
+                                <a class="mr-5" href="https://www.facebook.com/ruiverganineto"  target="_blank" ><i class="fab fa-facebook fa-2x"></i></a>
                             </li>
                             <li>
-                                <a class="" href="https://api.whatsapp.com/send?phone=+4407543281851" target="_blank" ><i class="fab fa-whatsapp"></i></a>
+                                <a class="" href="https://api.whatsapp.com/send?phone=+4407543281851" target="_blank" ><i class="fab fa-whatsapp fa-2x"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div>
-                    <h2 class="title-h2">Redirected Here?</h2>
+                    <h2 class="title-h2 pb-3">Redirected Here?</h2>
                     <p>
-                        If you are redirected to this page from a form then I would like you to know that your message has reached me. Use the conact methods mentioned above if I don’t get back to you soon.
+                        If you are redirected to this page I would like to tell you that this link is not finished yet. We are working as soon as possible to get back to you and I would like you to know that your message has reached me. Use the conact methods mentioned above if I don’t get back to you soon.
 
                         Check out this blog to create a website on your own to save some money. If you lack time then hire me.
                         
@@ -53,16 +53,23 @@ title: Error Page
         </div><!-- end of row-->
       </div> <!-- End of container -->
 
+      <script>
+          function goBack(){
+              window.history.back()
+          }
+      </script>
+
        <!-- button section -->
         <div class="container">
             <div class="row">
-            <!-- button begin -->
-            <div class="wow mx-auto fadeInUp" data-wow-delay="1.2s" id="button">
-                <button type="button" class="btn btn-primary" href="./home.html">Return <i class="fas fa-undo px-1"></i> </button>
-            </div>
+                <!-- button begin -->
+                <div class="wow m-auto fadeInUp" data-wow-delay="1.2s" id="button">
+                    <button type="button" class="btn btn-primary" onclick="goBack()">Return <i class="fas fa-undo px-1"></i> </button>
+                </div>
             </div>
         </div>
         <!-- end of button -->
+
 
 </main>
 <!-- End Main -->
