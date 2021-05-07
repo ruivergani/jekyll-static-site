@@ -17,7 +17,7 @@ layout: default
                 <!-- Card -->
                 <div class="card">
                   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                    <img src="{{ post.image_path | prepend: site.baseurl | replace: '/', '/'}}" class="card-img-top" alt="..."></a>
+                    <img src="{{ post.image_path | prepend: site.baseurl | replace: '/', '/'}}" class="card-img-top" style="height: 240px;" alt="..."></a>
                   <div class="card-body">
                     <div class="card-text-header pb-2"><i class="far fa-clock mr-2"></i>{{ post.date | date: '%B %d, %Y' }}</div>
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
