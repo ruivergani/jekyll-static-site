@@ -105,10 +105,12 @@ div#button {
 }
 
 .btn-primary {
-    background-color: $dark-blue;
-    border-color: $grey-light;
+    background-color: $third-color;
+    border-color: #3e5bff;
+    border-radius: 3px;
 }
 
 .btn-primary:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    transition: background-color .1s linear,color .1s linear,box-shadow .1s linear;
 }

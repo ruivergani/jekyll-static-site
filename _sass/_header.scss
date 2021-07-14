@@ -11,7 +11,25 @@
 .navbar-dark .navbar-brand {
     color: $dark-blue !important;
 }
+.navbar-brand .fas.fa-code{
+    color: $third-color;
+    opacity: 0.95;
+}
+div .title-logo{
+    display: inline-block;
+    background: linear-gradient(to right, white, white 70%);
+}
+div .title-logo h1{
+    font-size: 1.1em;
+    background: linear-gradient(to right, $third-color 0%, #2a2a72 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
+.navbar-brand span{
+    color: $dark-blue !important;
+    font-size: 0.3em;
+}
 .navbar:after {
     content: "";
     position: absolute;
@@ -64,6 +82,11 @@
     transition: all .3s ease-in-out;
     background-color: rgba(64, 87, 109, .13);
     border-radius: 5px;
+}
+
+.navbar ul li#icon-list:hover{
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59)) !important;
+    transition: background-color .1s linear,color .1s linear,box-shadow .1s linear !important;
 }
 
 div#navbarSupportedContent a {
