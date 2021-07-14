@@ -4,10 +4,9 @@
     background-color: $white;
     padding: 18px 0px;
     transition-duration: 0.6s;
-
 }
 
-/* ==== logo ====== */
+/* ==== Logo ====== */
 
 .navbar-dark .navbar-brand {
     color: $dark-blue !important;
@@ -19,7 +18,7 @@
     left: 0px;
     right: 0px;
     height: 3px;
-    background-color: rgba(64, 87, 109, .1);
+    background-color: rgba(64, 87, 109, .2);
 }
 
 .navbar:after {
@@ -53,7 +52,7 @@
 }
 
 .navbar ul li#icon-list {
-    background-color: $fourth-color;
+    background-color: $third-color;
     font-family: 'Prompt', sans-serif;  
     transition: all .3s ease-in-out;
     border-radius: 4px;
@@ -69,6 +68,12 @@
 
 div#navbarSupportedContent a {
     font-size: 1em;
+}
+i.fas.fa-search.wow.bounceIn::before{
+    color: $white;
+}
+i.fas.fa-bars.wow.bounceIn::before{
+    color: $white;
 }
 
 .scroll_navbar {
