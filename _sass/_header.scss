@@ -13,7 +13,7 @@
 }
 .navbar-brand .fas.fa-code{
     color: $third-color;
-    opacity: 0.95;
+    opacity: 0.98;
 }
 div .title-logo{
     display: inline-block;
@@ -21,7 +21,7 @@ div .title-logo{
 }
 div .title-logo h1{
     font-size: 1.1em;
-    background: linear-gradient(to right, $third-color 0%, #2a2a72 100%);
+    background: linear-gradient(to right, $third-color 20%, #2a2a72 100%);
     -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
