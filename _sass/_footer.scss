@@ -32,3 +32,48 @@ footer ul li a i:hover {
 .waves-2{
     box-sizing: border-box;
 }
+#button-top{
+    display: inline-block;
+  background-color: $third-color;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button-top::after {
+    content: "\f35b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+#button-top:hover {
+    cursor: pointer;
+    background-color: #6c83fe;
+}
+#button-top:active {
+    background-color: #555;
+}
+#button-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button-top {
+      margin: 30px;
+    }
+  }

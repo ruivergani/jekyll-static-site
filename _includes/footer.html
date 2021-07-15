@@ -1,7 +1,7 @@
 <!-- Footer -->
 
 <!-- Back to top button -->
-<a class="button-top"></a>
+<a id="button-top"></a>
 
 <!-- Waves Picture -->
 <div class="waves-2" style="background-color: #f8f8f8">
@@ -50,6 +50,24 @@
     <!-- Adicionar a partir daqui qualquer novo Script -->
     <script src="{{ site.baseurl }}jquery/dist/main.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script>
+        var btn = $('#button-top');
+
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
+
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+        });
+    </script>
+
 
 </body>
 </html>
